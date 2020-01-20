@@ -15,7 +15,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://t-1000-t.github.io/goit-react-hw-01-components",
+  "homepage": "https://t-1000-t.github.io/printPage",
   "eslintConfig": {
     "extends": "react-app"
   },
