@@ -1,0 +1,59 @@
+body {
+  text-align: left;
+  margin: 2cm 2cm 1cm 2cm;
+}
+
+img {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin-left: 1cm;
+}
+
+li {
+  list-style: none;
+}
+
+span {
+  margin-left: 0.5cm;
+}
+
+.fotoText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media print {
+  @page {
+    margin: 2cm 1cm 1cm 2cm;
+  }
+
+  body {
+    text-align: left;
+  }
+
+  img {
+    display: flex;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    margin-left: 1cm;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  span {
+    margin-left: 0.5cm;
+  }
+}
